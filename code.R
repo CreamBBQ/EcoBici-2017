@@ -6,7 +6,7 @@ library("dplyr")
 library("ggplot2")
 
 #datos
-datos <-  read.table("trips_2021.csv", header = TRUE, sep = ",", stringsAsFactors = TRUE)
+datos <-  read.table("recorridos-realizados-2017.csv", header = TRUE, sep = ",", stringsAsFactors = TRUE)
 
 #script
 fil <- nrow(datos)
