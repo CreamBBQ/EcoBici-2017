@@ -9,6 +9,7 @@ library("ggplot2")
 datos <-  read.table("recorridos-realizados-2017.csv", header = TRUE, sep = ",", stringsAsFactors = TRUE)
 
 #script
-fil <- nrow(datos)
-col <- ncol(datos)
+nRow <- nrow(datos)
+nCol <- ncol(datos)
+
 
