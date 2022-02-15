@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("/home/creambbq/code/bairesBikes")  
+setwd("/home/creambbq/code/oldBairesBikes")  
 
 ##librerias 
 library("dplyr")
